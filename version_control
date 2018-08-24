@@ -1,0 +1,31 @@
+#### Questions
+
+> Why would you want to use version control for your code?
+
+A: So you can make updates to your files without losing 
+your old versions.
+
+> Where can you find additional information about the Git 
+commands available?
+
+A: 
+https://education.github.com/git-cheat-sheet-education.pdf
+
+> Why are branches useful?
+
+A: They allow you to make changes and then later decide if 
+the changes make sense to merge back into the project.  If 
+not, you can just keep the old file.
+
+> What is the purpose of a remote?
+
+A: It is a connection between your local computer's 
+repository and your 
+remote repository.
+
+
+> Why is it important to track changes to the upstream 
+repository after you create your initial fork?
+
+A: So you have the most up to date version of the 
+repository on your computer
