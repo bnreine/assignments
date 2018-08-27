@@ -13,9 +13,9 @@ in that it can select elements from a combination of selectors (eg. `p .classNam
 >What do JavaScript event handlers do and what is an example of one?
 
 A: They perform an action upon some event occurrence.  
-Eg. document.getElementsByTagName('p').onclick = () => {
+Eg. `document.getElementsByTagName('p').onclick = () => {
   //insert code to execute here
-}
+}`
 
 
 #### Code
