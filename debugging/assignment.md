@@ -2,7 +2,7 @@
 
 > Open your browser. Open up Chrome DevTools. Click on the Network tab on DevTools. Go to your bloc dashboard page. What Request Urls is Bloc using to get your information from the API?
 
-A: https://api.segment.io/v1/m
+A: https://www.bloc.io/student_dashboard/benjamin-reinecke
 
 > Where can I find the cookies being used on the webpage using the Chrome DevTools?
 
