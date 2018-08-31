@@ -15,8 +15,7 @@ class (object).
 
 > What is the purpose of the keyword `super`?
 
-A: You use this syntax in a subclass constructor to point to the parent class constructor
-method in order to construct an instance of the subclass.
+A: You use this syntax in a subclass to access properties and methods of its parent class.
 
 > What are classes that do not use the keyword `extends` called?
 
@@ -28,6 +27,10 @@ A: Parent classes
 >Using the `Clothes` class we previously created, create a `Shirt` class that extends the `Clothes` class. Don't forget the `super()`.
 
 ````JS
+var shirtName = "Nike"
+var shirtSize = "Large"
+var shirtPrice = "$18.99"
+
 var Clothes = class {
     constructor(name, size, price){
         this.name = name;
@@ -37,8 +40,11 @@ var Clothes = class {
 }
 
 var Shirt = class extends Clothes {
-  constructor () {
-    super('Nike', 'Large', '$18.99');
+  constructor (name, size, price) {
+    super(name, size, price);
   }
 }
+
+var MyShirt = new Shirt(shirtName, shirtSize, shirtPrice)
+
 ````
