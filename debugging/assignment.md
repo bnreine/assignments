@@ -4,6 +4,7 @@
 
 A: https://www.bloc.io/student_dashboard/benjamin-reinecke
 
+
 > Where can I find the cookies being used on the webpage using the Chrome DevTools?
 
 A: Click the "application" tab, then go to "storage", then click on "cookies"
